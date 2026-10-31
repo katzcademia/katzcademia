@@ -1,0 +1,45 @@
+KATZCADEMIA - ACTIVIDAD 4
+=========================
+
+CONTENIDO
+- index.html: página principal con divisiones.
+- pedidos.html: formulario conectado a Web3Forms (falta colocar tu clave).
+- paginas/catalogo.html: catálogo de la actividad anterior.
+- paginas/contacto.html: contacto con enlace al formulario.
+- imágenes/ y documentos/: recursos de la actividad anterior.
+
+1. CONFIGURAR WEB3FORMS
+a) Entra en https://web3forms.com/
+b) Sigue las instrucciones del servicio para obtener tu Access Key.
+c) Abre pedidos.html en Visual Studio Code.
+d) Busca TU_ACCESS_KEY y reemplázalo por la clave que te proporcionó Web3Forms.
+e) Guarda el archivo.
+f) Publica el sitio y prueba el formulario con datos ficticios. El servicio puede pedir confirmar el correo receptor y aplica límites según el plan.
+
+IMPORTANTE: no compartas públicamente tu clave de acceso. Para la entrega, utiliza únicamente datos ficticios. No se ha realizado un envío real desde este proyecto porque requiere tu clave y la configuración de tu cuenta.
+
+2. PUBLICAR EN GITHUB PAGES
+a) Crea un repositorio en GitHub, por ejemplo: katzcademia-act4.
+b) Sube el contenido de la carpeta act4 (no solamente el archivo ZIP).
+c) En el repositorio, abre Settings > Pages.
+d) En Build and deployment, selecciona Deploy from a branch.
+e) Selecciona la rama main y la carpeta /(root), y guarda.
+f) Espera a que GitHub Pages publique el sitio. La dirección tendrá normalmente esta forma:
+   https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/
+g) Abre esa dirección y comprueba los enlaces, las imágenes y pedidos.html.
+
+3. DIFERENCIA ENTRE ID Y CLASS
+El atributo id identifica de manera única un elemento de una página. Por eso se utiliza en las divisiones principales: encabezado, menú, contenido y pie. Cada una tiene un id diferente.
+El atributo class permite agrupar varios elementos que comparten una misma característica o estilo. Por eso los dos bloques de contenido utilizan class="bloque". Una misma clase puede repetirse en distintos elementos.
+
+4. CAPTURAS PARA WORD
+Incluye capturas de:
+- El código de pedidos.html mostrando el formulario, los fieldset, los controles y la clave oculta (puedes ocultar la clave real en la captura).
+- El formulario completo abierto en el navegador.
+- El código de index.html donde se vean los cuatro div principales y los dos bloques con la misma class.
+- index.html abierto en el navegador.
+- La configuración de GitHub Pages y la dirección pública del sitio.
+- La prueba de envío satisfactoria de Web3Forms, usando datos ficticios.
+
+5. NOTA SOBRE XHTML
+Los elementos input se escriben autocerrados con />. El campo oculto access_key está dentro de un div, tal como solicita la consigna. Conserva el DOCTYPE XHTML 1.0 Strict.
